@@ -1,12 +1,10 @@
 programa
 {
-	
 	funcao inicio()
 	{
 		real hora
 		escreva("Bem vindo ao programa que define se estou estudando ou não! \n Para começar digite a hora atual de 0 até 24: \n")
 		leia(hora)
-
 		se(hora < 0 ou hora > 24) {
 			escreva("Digite um horário entre 0 e 24... \n Ex: 9 ex2: 11.50 ex3 20.30... ")
 		} senao {
